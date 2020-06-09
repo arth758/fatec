@@ -1,0 +1,24 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class EmpregadoTest {
+	@Test
+	public void testeComSalarioPositivo() {
+		Empregado funcionario = new Empregado("Arthur", "Reis", 1600);
+		assertEquals("a", 1600 * 12, funcionario.getSalarioAnual(), 0.01);
+	}
+	
+	@Test
+	public void testeComSalarioNegativo() {
+		Empregado funcionario = new Empregado("Marcos", "Alexandre", -100);
+		assertEquals("b", 0, funcionario.getSalarioAnual(), 0.01);
+	}
+	
+	@Test
+	public void testeComSalarioAumentado() {
+		Empregado funcionario = new Empregado("Marcos", "Alexandre", 1600);
+		assertEquals(1600, funcionario.getSalario(), 0.01);
+	}
+}

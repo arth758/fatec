@@ -1,0 +1,14 @@
+package exerciciosFixacaoJava;
+
+import java.util.*;
+
+public class JavaFiddle
+{
+  public static void main(String[] args)
+  {
+      List<String> teste = new List<String>();
+      teste.add("a");
+      System.out.println(teste.contains("a"));
+  }
+}
+

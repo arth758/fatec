@@ -1,0 +1,45 @@
+O QUE É: 
+
+A topologia de rede é o padrão no qual o meio de rede está conectado aos computadores e outros componentes de rede. Essencialmente, é a estrutura topológica da rede, e pode ser descrito fisicamente ou logicamente. 
+
+A topologia física: 
+
+representa como as redes estão conectadas (layout físico) e o meio de conexão dos dispositivos de redes (nós ou nodos). A forma com que os cabos são conectados, e que genericamente chamamos de topologia da rede (física), influencia em diversos pontos considerados críticos, como a flexibilidade, velocidade e segurança. 
+
+Topologia Barramento: 
+
+Todos os computadores são ligados em um mesmo barramento físico de dados. Apesar de os dados não passarem por dentro de cada um dos nós, apenas uma máquina pode "escrever" no barramento num dado momento. Todas as outras "escutam" e recolhem para si os dados destinados a elas. Quando um computador estiver a transmitir um sinal, toda a rede fica ocupada e se outro computador tentar enviar outro sinal ao mesmo tempo, ocorre uma colisão e é preciso reiniciar a transmissão. 
+
+Vantagens: 
+
+	Uso de cabo é econômico; 
+
+	Mídia é barata, fácil de trabalhar e instalar; 
+
+	Simples e relativamente confiável; 
+
+	Fácil expansão. 
+
+Desvantagens: 
+
+	Rede pode ficar extremamente lenta em situações de tráfego pesado; 
+
+	Problemas são difíceis de isolar; 
+
+	Falha no cabo paralisa a rede inteira. 
+
+Topologia Estrela: 
+
+A mais comum atualmente, a topologia em estrela utiliza cabos de par trançado e um concentrador como ponto central da rede. O concentrador se encarrega de retransmitir todos os dados para todas as estações, mas com a vantagem de tornar mais fácil a localização dos problemas, já que se um dos cabos, uma das portas do concentrador ou uma das placas de rede estiver com problemas, apenas o nó ligado ao componente defeituoso ficará fora da rede. 
+
+Vantagens: 
+
+	A codificação e adição de novos computadores é simples; 
+
+	Gerenciamento centralizado; 
+
+	Falha de um computador não afeta o restante da rede. 
+
+Desvantagem: 
+
+	Uma falha no dispositivo central paralisa a rede inteira. 

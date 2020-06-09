@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572482731 source:c:\users\aluno\desktop\exercícios_adan\exercício_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

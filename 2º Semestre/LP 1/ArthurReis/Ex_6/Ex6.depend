@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1567030401 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\tarefa funções e bibliotecas\ex_1\programas\ex6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+

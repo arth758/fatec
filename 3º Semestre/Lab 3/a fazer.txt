@@ -1,0 +1,2 @@
+colocar nomes dos integrantes em reply da msg do prof
+ajusatr o markdown modelo do professor ai projeto do github

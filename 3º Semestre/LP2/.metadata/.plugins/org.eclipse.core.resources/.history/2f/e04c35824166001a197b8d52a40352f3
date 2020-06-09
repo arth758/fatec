@@ -1,0 +1,35 @@
+package Exercicio_2;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class Invoice {
+	@Setter
+	private Long numeroItem;
+	@Setter
+	private String descricaoItem;
+	@Setter @Getter
+	private Long quantidadeItem;
+	@Setter @Getter
+	private Double precoUnitario;
+	
+	public Invoice(Long pNumeroItem, String pDescricaoItem, Long pQuantidadeItem, Double pPrecoUnitario) {
+		setNumeroItem(pNumeroItem);
+		setDescricaoItem(pDescricaoItem);
+		setPrecoUnitario(pPrecoUnitario);
+		setQuantidadeItem(pQuantidadeItem);
+	}
+	
+	public void setQuantidadeItem(Long pQuantidade) {
+		this.quantidadeItem = pQuantidade < 0 ? 0 : pQuantidade;
+	}
+	
+	public void setPrecoUnitario(Double pPreco) {
+		this.precoUnitario = pPreco < 0 ? 0 : pPreco;
+	}
+	
+	public Double getInvoiceAmount() {
+		return getPrecoUnitario() * getQuantidade();
+	}
+}
+

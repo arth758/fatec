@@ -1,0 +1,54 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmpregadoTest {
+
+	@Test
+	public void testEmpregado() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetSalarioAnual() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAumentaSalario() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetNome() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetSobrenome() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetSalario() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetNome() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetSobrenome() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetSalario() {
+		fail("Not yet implemented");
+	}
+
+}

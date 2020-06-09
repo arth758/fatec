@@ -1,0 +1,11 @@
+package edu.fatec.sjc.lp2.model;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Turma lp2 = new Turma(3);
+		
+		lp2.inserirAluno(new Aluno())
+	}
+
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1565908656 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\arthurreis - entregue\pgma_9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

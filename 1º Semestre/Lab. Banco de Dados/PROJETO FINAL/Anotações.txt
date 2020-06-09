@@ -1,0 +1,3 @@
+tamanho max dos elementos: 6
+poucos casos
+apenas ele/os com 5 ou 6  terão o indice e ; no começo

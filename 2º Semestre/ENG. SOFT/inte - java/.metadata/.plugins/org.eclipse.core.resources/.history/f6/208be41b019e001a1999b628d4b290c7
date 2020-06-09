@@ -1,0 +1,14 @@
+package exercicioFixacao2;
+
+import java.util.ArrayList;
+
+public class Empresa {
+	private ArrayList<Funcionario> funcionarios;
+	private int maxFuncionarios = 10;
+	
+	public void AdicionarFuncionario(Funcionario funcionario) {
+		if (funcionarios.size() <= maxFuncionarios) {
+			funcionarios.add(funcionario);
+		}
+	}
+}

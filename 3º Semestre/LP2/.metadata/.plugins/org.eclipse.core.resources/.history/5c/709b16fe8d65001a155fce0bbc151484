@@ -1,0 +1,14 @@
+package exerciciosFixacaoJava;
+
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date today = new Date();
+		
+		System.out.println(today);
+	}
+
+}

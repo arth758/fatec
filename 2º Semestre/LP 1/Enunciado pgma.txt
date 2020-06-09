@@ -1,0 +1,1 @@
+Crie um programa que, dado um dispositivo de armazenamento(Pen-drive, cd, hd externo, etc), separe os arquivos de imagens (.jpeg, .png) dos arquivos de vídeo (.mp4, .avi, .mkv) dos arquivos de aúdio (.mp3, .wav, .wmv) e mova em pastas separadas (Imagens, Vídeos, Áudios) dentro do mesmo dispositivo. 

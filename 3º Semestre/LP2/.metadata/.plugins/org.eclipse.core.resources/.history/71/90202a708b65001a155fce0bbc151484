@@ -1,0 +1,59 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TestEmpregado {
+	Empregado cut;
+	Empregado anotherCut;
+
+	@Test
+	public void testeComSalarioPositivo() {
+		cut = new Empregado("Arthur", "Reis", 1600);
+		assertEquals(1600 * 12, cut.getSalarioAnual(), 0.01);
+	}
+
+	@Test
+	public void testeComSalarioNegativo() {
+		cut = new Empregado("Arthur", "Reis", -100);
+		assertEquals(0, cut.getSalario(), 0.01);
+	}
+
+	@Test
+	public void testeComNome() {
+		cut = new Empregado("Arthur", "Reis", 100);
+		assertEquals("Arthur", cut.getNome());
+	}
+
+	@Test
+	public void testeComSobrenome() {
+		cut = new Empregado("Arthur", "Reis", 100);
+		assertEquals("Reis", cut.getSobrenome());
+	}
+
+	@Test
+	public void testeComSalarioAnualCut() {
+		cut = new Empregado("Arthur", "Reis", 100);
+		assertEquals(100 * 12, cut.getSalarioAnual(), 0.01);
+	}
+	
+	@Test
+	public void testeComSalarioAnualAnotherCut() {
+		anotherCut = new Empregado("Marcos", "Alexandre", 1000);
+		assertEquals(1000 * 12, anotherCut.getSalarioAnual(), 0.01);
+	}
+	
+	@Test
+	public void testeComSalarioAumentadoCut() {
+		cut = new Empregado("Arthur", "Reis", 1600);
+		cut.aumentaSalario();
+		assertEquals(1760, cut.getSalario(), 0.01);
+	}
+	
+	@Test
+	public void testeComSalarioAumentadoAnotherCut() {
+		anotherCut = new Empregado("Marcos", "Alexandre", 2000);
+		anotherCut.aumentaSalario();
+		assertEquals(2200, anotherCut.getSalario(), 0.01);
+	}
+}

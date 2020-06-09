@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1569457115 source:c:\users\aluno\desktop\exercícios adriana\exercício_6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<locale.h>
+

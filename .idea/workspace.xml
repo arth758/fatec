@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18697e50-fc7b-4872-8566-288a3733b47d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3º Semestre/ED/listaEncadeada/listaEncadeada.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print2</find>
+      <find>print</find>
+      <find>print()</find>
+      <find>elif elemento[0] == '</find>
+      <find>posicoes_J1_1.append(str(posicoes[0]) + ' ' + str(posicoes[1]) + ' ' + str(posicoes[2]))</find>
+      <find>tamanho_4</find>
+      <find>' ' + str(posicoes[0]) + '' + str(posicoes[1]) + ' '</find>
+      <find>(str(x) + ' ' + str(y)</find>
+      <find>' ' + str(posicoes[0]) + ' ' + str(posicoes[1]) + ' '</find>
+      <find>'  ' + str(posicoes[0]) + ' ' + str(posicoes[1]) + '  '</find>
+      <find>' ' + str(x) + ' ' + str(y) + ' '</find>
+      <find>str(posicoes[0]) + ' ' + str(posicoes[1]) + ' '</find>
+      <find>str(posicoes[0]) + ' ' + str(posicoes[1])</find>
+      <find>str(x) + ' ' + str(y)</find>
+      <find>str(posicoes[0]) + str(posicoes[1]) + ' '</find>
+      <find>pontuacao_J2</find>
+      <find>str(posicoes[0]) + '.' + str(posicoes[1]) + ' '</find>
+      <find>ERROR_NR_PARTS_VALIDATION</find>
+      <find>posicao2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>print</replace>
+      <replace>print(elemento)</replace>
+      <replace>if elemento[0] == '</replace>
+      <replace>posicoes_J1_1.append(str(posicoes[0]) + ' ' + str(posicoes[1]))</replace>
+      <replace>2</replace>
+      <replace>' ' + str(posicoes[0]) + str(posicoes[1]) + ' '</replace>
+      <replace>str(posicoes[0]) + ' ' + str(posicoes[1]) + ' '</replace>
+      <replace>' ' + str(posicoes[0]) + ' ' + str(posicoes[1]) + ' '</replace>
+      <replace>(' ' + str(x) + ' ' + str(y) + ' '</replace>
+      <replace>'  ' + str(posicoes[0]) + ' ' + str(posicoes[1]) + '  '</replace>
+      <replace>str(posicoes[0]) + ' ' + str(posicoes[1])</replace>
+      <replace>str(x) + ' ' + str(y)</replace>
+      <replace>str(posicoes[0]) + str(posicoes[1]) + ' '</replace>
+      <replace>str(x) + '.' + str(y)</replace>
+      <replace>str(posicoes[0]) + '.' + str(posicoes[1]) + ' '</replace>
+      <replace>PONTUACAO_TOTAL_J1</replace>
+      <replace>PONTUACAO_TOTAL_J2</replace>
+      <replace>str(posicoes[0]) + '@' + str(posicoes[1]) + ' '</replace>
+      <replace>posicao_2</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-1.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-3.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/04) 28 -- 4-05/ex-1.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-2.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-3.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-4.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-5.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-6.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-7.py" />
+        <option value="$PROJECT_DIR$/AACC/EX-8.py" />
+        <option value="$PROJECT_DIR$/AACC/ex-9.py" />
+        <option value="$PROJECT_DIR$/AACC/EX-10.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-4.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-5.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-6.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-7.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/04) 28 -- 4 -05/ex-8.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 5 -- 11/string1_a_resolver.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/05) 5 -- 11/cpf_validator.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 5 -- 11/mensagem" />
+        <option value="$PROJECT_DIR$/Mat Discreta/PROGRAMAS/2ª Remessa/programa #6.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 12 -- 18/telefones_validos.txt" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 12 -- 18/Ponteironuloville.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 5 -- 11/arquivos.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 19 -- 25/lista07_funcoes.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 19 -- 25/lista08_funcoes.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/comments.py" />
+        <option value="$PROJECT_DIR$/Mat Discreta/PROGRAMAS/2ª Remessa/programa #7.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 5 -- 11/string2_a_resolver.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 26 -- 1-6/lista/ex-1.py" />
+        <option value="$PROJECT_DIR$/Algoritmos/05) 26 -- 1-6/lista/ex-2.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/tester.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep2check_windows/algoritmo/Batalha_Naval.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Batalha_Naval.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/jogador2.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/jogador1.txt" />
+        <option value="$PROJECT_DIR$/Algoritmos/teste.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/resultado.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/algoritmo/Arthur_Reis_Breno_Moura.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct2/jogador1.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct2/jogador2.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/algoritmo/alg.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct11/jogador1.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct6/jogador2.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/ct13/jogador2.txt" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/batalha #2.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Arthur_Reis_Breno_Moura.py.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Arthur_Reis_Breno_Moura.py" />
+        <option value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/algoritmo/alg.py" />
+        <option value="$PROJECT_DIR$/Linguage de Programação/pen_drive.py" />
+        <option value="$PROJECT_DIR$/3º Semestre/ED/listaEncadeada/listaEncadeada.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="446" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FATEC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FATEC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FATEC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FATEC" type="462c0819:PsiDirectoryNode" />
+              <item name="3º Semestre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FATEC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FATEC" type="462c0819:PsiDirectoryNode" />
+              <item name="3º Semestre" type="462c0819:PsiDirectoryNode" />
+              <item name="ED" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FATEC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FATEC" type="462c0819:PsiDirectoryNode" />
+              <item name="3º Semestre" type="462c0819:PsiDirectoryNode" />
+              <item name="ED" type="462c0819:PsiDirectoryNode" />
+              <item name="listaEncadeada" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab. Banco de Dados/checker/algoritmo" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arthur Braga Reis\Desktop\FATEC\Lab. Banco de Dados\checker\algoritmo" />
+      <recent name="C:\Users\Arthur Braga Reis\Desktop\FATEC\Lab. Banco de Dados\PROJETO FINAL\ep2check_windows\algoritmo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pen_drive">
+    <configuration name="Arthur_Reis_Breno_Moura (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FATEC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Arthur_Reis_Breno_Moura.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="batalha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FATEC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab. Banco de Dados/checker/algoritmo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab. Banco de Dados/checker/algoritmo/batalha.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pen_drive" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FATEC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linguage de Programação" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linguage de Programação/pen_drive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runtests (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FATEC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/runtests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runtests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FATEC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab. Banco de Dados/checker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab. Banco de Dados/checker/runtests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pen_drive" />
+        <item itemvalue="Python.runtests" />
+        <item itemvalue="Python.runtests (2)" />
+        <item itemvalue="Python.batalha" />
+        <item itemvalue="Python.Arthur_Reis_Breno_Moura (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="4" Folder0="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Users\Arthur Braga Reis\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18697e50-fc7b-4872-8566-288a3733b47d" name="Default Changelist" comment="" />
+      <created>1556150483321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556150483321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15955766" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24981412" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info anchor="bottom" x="0" y="132" width="1370" height="504" id="Debug" maximized="true" order="2" weight="0.39296636" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32874617" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32874617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="0" y="107" width="1370" height="553" id="Run" order="3" weight="0.31268883" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22205438" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24981412" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info anchor="bottom" x="0" y="132" width="1370" height="504" id="Debug" maximized="true" order="2" weight="0.39296636" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32874617" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32874617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" x="0" y="107" width="1370" height="553" id="Run" order="3" visible="true" weight="0.43429002" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-944103236/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algoritmos/05) 19 -- 25/lista08_funcoes.py" />
+    <entry file="file://$PROJECT_DIR$/Mat Discreta/PROGRAMAS/2ª Remessa/programa #6.py" />
+    <entry file="file://$PROJECT_DIR$/Mat Discreta/PROGRAMAS/2ª Remessa/programa #7.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Anotações.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/comments.py" />
+    <entry file="file://$PROJECT_DIR$/Algoritmos/05) 5 -- 11/string1_a_resolver.py" />
+    <entry file="file://$PROJECT_DIR$/Algoritmos/05) 5 -- 11/string2_a_resolver.py" />
+    <entry file="file://$PROJECT_DIR$/Algoritmos/05) 19 -- 25/lista07_funcoes.py" />
+    <entry file="file://$PROJECT_DIR$/Algoritmos/05) 26 -- 1-6/lista/ex-2.py" />
+    <entry file="file://$PROJECT_DIR$/Algoritmos/05) 26 -- 1-6/lista/ex-1.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/tester.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep2check_windows/algoritmo/Batalha_Naval.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep2check_windows/ct5/resultado.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep2check_windows/ct4/resultado.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Batalha_Naval.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/testes.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep2check_windows/runtests.py" />
+    <entry file="file://$PROJECT_DIR$/Algoritmos/teste.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct2/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/algoritmo/Arthur_Reis_Breno_Moura.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct2/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct11/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct11/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct12/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct12/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/algoritmo/alg.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/runtests.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct4/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct4/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct6/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/ct6/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/README.md" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/ct13/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/ct13/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/batalha #2.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/Arthur_Reis_Breno_Moura.py.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/arthur_reis_breno_moura.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/algoritmo/alg.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/runtests.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/checker/README.md" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/PROJETO FINAL/resultado.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/checker/algoritmo/batalha.py" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/checker/algoritmo/jogador1.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/checker/algoritmo/jogador2.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab. Banco de Dados/checker/runtests.py" />
+    <entry file="file://$PROJECT_DIR$/Linguage de Programação/pen_drive.py" />
+    <entry file="file://$PROJECT_DIR$/3º Semestre/ED/listaEncadeadaComCabeça.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3º Semestre/ED/listaEncadeada/listaEncadeada.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36878452" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

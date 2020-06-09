@@ -1,0 +1,21 @@
+package exerciciosFixacaoJava;
+
+import java.time.LocalDate;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String today = LocalDate.now().toString();
+		String[] date = today.split("-");
+		
+		int ano = Integer.parseInt(date[0]);
+		int mes = Integer.parseInt(date[1]);
+		int dia = Integer.parseInt(date[2]);
+		
+		System.out.println(ano);
+		System.out.println(mes);
+		System.out.println(dia);
+	}
+
+}

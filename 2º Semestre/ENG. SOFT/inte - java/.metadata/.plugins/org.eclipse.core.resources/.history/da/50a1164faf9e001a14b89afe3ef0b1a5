@@ -1,0 +1,25 @@
+package exercicioFixacao2;
+
+import java.util.ArrayList;
+
+public class Empresa {
+	private ArrayList<Funcionario> funcionarios = new ArrayList<Funcionario>();
+	private int maxFuncionarios = 10;
+
+	public void AdicionarFuncionario(Funcionario funcionario) throws Exception {
+		if (funcionarios.size() <= maxFuncionarios) {
+			funcionarios.add(funcionario);
+		} else {
+			throw new Exception("Limite de Funcionários atingido!");
+		}
+	}
+
+	public void ExibirFuncionarios() {
+		System.out.println("Funcionários: ");
+		funcionarios.forEach((func) -> {
+			System.out.println("----------------------------------");
+			System.out.println("\tNome: " + func.getNome() + "\n\tMatricula: " + func.getMatricula() + "\n\tSalario Bruto: "
+					+ func.getSalarioBruto() + "\n\tSalario Líquido: " + func.getSalarioLiquido());
+		});
+	}
+}

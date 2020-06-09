@@ -1,0 +1,17 @@
+package exercicioFixacao1;
+
+public class JogoDaVelha {
+	private String[][] jogo = new String[3][3];
+	
+	public enum ocupacao {
+		vazia, jog1, jog2;
+	}
+	
+	public JogoDaVelha() {
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				this.jogo[i][j] = "";
+			}
+		}
+	}
+}

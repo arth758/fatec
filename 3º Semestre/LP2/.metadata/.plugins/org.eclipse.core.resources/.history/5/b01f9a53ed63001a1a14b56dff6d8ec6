@@ -1,0 +1,29 @@
+package exerciciosFixacaoJava;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Empregado {
+	private String nome;
+	private String sobrenome;
+	private double salario;
+
+	public Empregado(String nome, String sobrenome, double salario) {
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		if (salario < 0)
+			this.salario = 0.0;
+		else
+			this.salario = salario;
+	}
+
+	public double getSalarioAnual() {
+		return this.salario * 12;
+	}
+
+	public void aumentaSalario() {
+		this.salario += salario / 10;
+	}
+}

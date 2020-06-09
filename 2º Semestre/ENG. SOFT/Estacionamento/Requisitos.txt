@@ -1,0 +1,7 @@
+Atores:
+ - Funcionário
+
+Requisitos Funcionais:
+ - O Funcionário Cadastra Carros no sistema, usando (Marca, modelo, cor, placa)
+ - O Funcionário Pesquisa Carros no sistema, usando (Marca, modelo, cor)
+ - O Funcionário Pesquisa Carros no sistema, usando (Placa)

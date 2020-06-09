@@ -1,0 +1,34 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestData {
+	Data cut;
+
+	@Test
+	public void criarDataValida() {
+		cut = new Data(24, 11, 2001);
+		assertEquals(24, cut.getDia());
+		assertEquals(11, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+	
+	@Test
+	public void criarDataValidaEmFevereiro() {
+		cut = new Data(24, 2, 2001);
+		assertEquals(24, cut.getDia());
+		assertEquals(2, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+	
+	@Test
+	public void criarDataValidaComAnoBissexto() {
+		cut = new Data(24, 11, 2016);
+		assertEquals(24, cut.getDia());
+		assertEquals(11, cut.getMes());
+		assertEquals(2016, cut.getAno());
+	}
+
+}

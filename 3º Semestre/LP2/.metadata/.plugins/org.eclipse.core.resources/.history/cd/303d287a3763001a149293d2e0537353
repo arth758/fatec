@@ -1,0 +1,10 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EmpregadoTest {
+	Empregado funcionario1 = new Empregado("Arthur", "Reis", 1600);
+	Empregado funcionario1 = new Empregado("Marcos", "Alexandre", 1600);
+}

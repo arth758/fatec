@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1568164515 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\condicionais e switch\index\exercicios.c
+	<stdio.h>
+	"exercícios.h"
+
+1568164478 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\condicionais e switch\index\main.c
+	<stdio.h>
+	<stdlib.h>
+	"exercícios.h"
+
+1568164180 c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\condicionais e switch\index\exercicios.c
+	<stdio.h>
+	"exercícios.h"
+
+1568164321 c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\condicionais e switch\index\exercícios.h
+

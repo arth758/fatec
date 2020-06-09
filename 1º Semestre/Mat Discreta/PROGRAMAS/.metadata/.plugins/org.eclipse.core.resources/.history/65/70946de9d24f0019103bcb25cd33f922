@@ -1,0 +1,38 @@
+package relacao;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Relacao {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		List list_A = new ArrayList();
+		String el_A, el_B;
+		int x = 0, a;
+		
+		System.out.println("Quantos elementos quer no Conjunto A?");
+		a = input.nextInt();
+
+		System.out.println("Entre com um valor para o conjunto A(X para sair): ");
+		do {
+			System.out.println("Opção: ");
+			el_A = input.next();
+			if(el_A == "x" && el_A == "X") {
+				break;
+			}
+			else {
+				list_A.add(el_A.toString());
+			}
+			x++;
+		}while(x < 5);
+		//while(el_A != "x" && el_A != "X");
+		
+		System.out.println("Elementos de A: ");
+		for(int i = 0; i < list_A.size(); i++) {
+			System.out.println(list_A.get(i));
+		}
+	}
+
+}

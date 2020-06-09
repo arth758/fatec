@@ -1,0 +1,40 @@
+package exerciciosFixacaoJava;
+
+import java.time.LocalDate;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
+public class Data {
+	private int dia;
+	private int mes;
+	private int ano;
+	
+	String[] actualDate = LocalDate.now().toString().split("-");
+	
+	public Data(int dia, int mes, int ano) {
+		boolean bissexto = false;
+		if((ano % 4 == 0) && (ano % 100 != 0)) {
+			bissexto = true;
+		}
+	}
+	
+	public Data() {
+		setDia(Integer.parseInt(actualDate[2]));
+		setMes(Integer.parseInt(actualDate[1]));
+		setAno(Integer.parseInt(actualDate[0]));
+	}
+	
+	public String getStrDate(int dia, int mes, int ano) {
+		String strDia = Integer.toString(dia);
+		String strMes = Integer.toString(mes);
+		String strAno = Integer.toString(ano);
+		return strDia + "/" + strMes + "/" + strAno;
+	}
+	
+	
+//	public String avancaData(String dia, String mes, String ano) {
+//		
+//	}
+}

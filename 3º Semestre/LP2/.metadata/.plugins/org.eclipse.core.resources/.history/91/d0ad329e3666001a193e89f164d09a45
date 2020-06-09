@@ -1,0 +1,116 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestData {
+	Data cut;
+
+	@Test
+	public void criarDataValida() {
+		cut = new Data(24, 11, 2001);
+		assertEquals(24, cut.getDia());
+		assertEquals(11, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+
+	@Test
+	public void criarDataValidaEmFevereiro() {
+		cut = new Data(24, 2, 2001);
+		assertEquals(24, cut.getDia());
+		assertEquals(2, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+
+	@Test
+	public void criarDataInvalidaEmFevereiro() {
+		cut = new Data(30, 2, 2001);
+		assertEquals(0, cut.getDia());
+		assertEquals(2, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+
+	@Test
+	public void criarDataValidaEmDezembro() {
+		cut = new Data(24, 12, 2001);
+		assertEquals(24, cut.getDia());
+		assertEquals(12, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+
+	@Test
+	public void criarDataInvalidaEmDezembro() {
+		cut = new Data(33, 12, 2001);
+		assertEquals(0, cut.getDia());
+		assertEquals(12, cut.getMes());
+		assertEquals(2001, cut.getAno());
+	}
+
+	@Test
+	public void criarDataValidaComAnoBissexto() {
+		cut = new Data(24, 11, 2016);
+		assertEquals(24, cut.getDia());
+		assertEquals(11, cut.getMes());
+		assertEquals(2016, cut.getAno());
+	}
+
+	@Test
+	public void criarDataValidaEmFevereiroComAnoBissexto() {
+		cut = new Data(24, 2, 2016);
+		assertEquals(24, cut.getDia());
+		assertEquals(2, cut.getMes());
+		assertEquals(2016, cut.getAno());
+	}
+
+	@Test
+	public void criarDataInvalidaEmFevereiroComAnoBissexto() {
+		cut = new Data(30, 2, 2016);
+		assertEquals(0, cut.getDia());
+		assertEquals(2, cut.getMes());
+		assertEquals(2016, cut.getAno());
+	}
+
+	@Test
+	public void criarDataValidaEmDezembroComAnoBissexto() {
+		cut = new Data(24, 12, 2016);
+		assertEquals(24, cut.getDia());
+		assertEquals(12, cut.getMes());
+		assertEquals(2016, cut.getAno());
+	}
+
+	@Test
+	public void criarDataInvalidaEmDezembroComAnoBissexto() {
+		cut = new Data(33, 12, 2016);
+		assertEquals(0, cut.getDia());
+		assertEquals(12, cut.getMes());
+		assertEquals(2016, cut.getAno());
+	}
+	
+	@Test
+	public void criarDataAtual() {
+		cut = new Data();
+		assertEquals(14, cut.getDia());
+		assertEquals(3, cut.getMes());
+		assertEquals(2020, cut.getAno());
+	}
+	
+	@Test
+	public void criarDataAtualString() {
+		cut = new Data();
+		assertEquals("14/3/2020", cut.toString());
+	}
+	
+	@Test
+	public void getDatacomoString() {
+		cut = new Data();
+		assertEquals("14/3/2020", cut.toString(14, 3, 2020));
+	}
+	
+	@Test
+	public void criaDataValidaEAvancaData() {
+		cut = new Data();
+		cut.avancaData();
+		assertEquals("14/3/2020", cut.toString(14, 3, 2020));
+	}
+}

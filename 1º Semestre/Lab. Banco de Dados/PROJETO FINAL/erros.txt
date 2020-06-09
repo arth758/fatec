@@ -1,0 +1,2 @@
+CT4 - Torpedos a mais em J1, não em  J2
+CT6 - Empate, não há sobreescrita em J2, no código 4, deveria ser L5H, não L5V 

@@ -1,0 +1,28 @@
+Ele vai ser usado por 5 atores diferentes, eles são: Empresários, 1 membro do CAD,  professor, aluno, adm do sistema.
+
+Seu objetivo é integrar a empresa com a fatec, Ex: a empresa em um problema que pode ser resolvido com a Fatec e seus alunos/professores.
+
+Um funcionário entra no sistema, via web/browser, para se cadastrar necessitam 3 coisas, email(qlqr email)(professores e alunos usam o email institucional), cpf, senha. Então o sistema checa se o email já existe caso não, cadastra-o, sendo o email a chave primária.
+
+O login é efetuado com email e senha, ao fazer login, o usuário é levado a uma tela de projetos cadastrados e de cadastro de projetos(primeiro login = nenhum projeto).
+
+1ª fase - Cadastro do Projeto - Ao clicar em cadastrar projeto, precisa de três coisa, titulo(OBRIGATÓRIO), desc breve(tuíte)(OBRIGATÓRIO), campo de url, por mídia externa(vídeo youtube, imagem no instagram/imgur, link de qlqr coisa)(OPCIONAL), cadastro efetuado, edição ou exclusão permitida.
+
+Agora o primeiro projeto aparece na página principal. Junto com cada projeto(dica = a forma com que a amazon faz com compras, a forma com que ela junta as infos), existem informações, o software cria um painel de visualização de status/linha do tempo para ele.
+
+2ª fase - Aprovação do CAD - O CAD se cadastra no site, com email institucional, ele avaliar os projetos, decidindo se aprova ou não, o CAD fica atrelado ao projeto.
+
+3ª fase - Detalhamento do Projeto - O empresário é informado sobre a aprovação, então um campo maior é aberto para ele falar sobre o projeto(detalhar o projeto mais a fundo), e outro campo para informar sobre tecnologias para solução do projeto (AMBOS OBRIGATÓRIOS) e mais um campo para inserção de links (OPCIONAL).
+
+4ª fase - Segunda aprovação - O CAD lê as novas informações e decide se o projeto continua ou não, apontando um ou mais professores para levar o projeto, com base no currículo do professor.
+
+5ª fase - Reunião - A reunião é marcada pelo CAD, empresário e professores se reúnem, SEM ALUNOS, são exibidos dia, hora e local. Um convite é feito, via email, após realizada, a reunião é marcada como ok, então o projeto começa.
+
+Os alunos se cadastram na plataforma (com o email institucional), então o professor dá o nome e a senha do projeto para os alunos acessarem o projeto, com essa senha(tipo o moodle), o aluno só pode ver os títulos dos projetos durante a pesquisa, APENAS ISSO, nessa página um aluno consegue fazer a entrega **FINAL** do projeto, um link de um repositório Git(OBRIGATÓRIO), um link para o projeto em uma plataforma cloud(amazon, o projeto rodando)(OPCIONAL) e um texto(OBRIGATÓRIO) com observações sobre o projeto.
+
+O professor pode visualizar os alunos inscritos no projeto.
+O projeto fica 'verdinho'/OK para o empresário.
+O aluno postando o projeto, o mesmo já fica visível para o empresário.
+Existe uma data limite, será decidida durante a reunião, e postada no sistema.
+O professor pode excluir o aluno que não postar o projeto, TODOS os alunos devem postar o projeto finalizado.
+Após o prazo, nenhum aluno pode mais postar o projeto final.

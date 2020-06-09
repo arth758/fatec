@@ -1,0 +1,5 @@
+NOME = str(input())
+SAL_FIX = float(input())
+COMISSAO = float(input())
+SAL_FINAL = SAL_FIX + (COMISSAO * (15/100))
+print("TOTAL = R$ %.2f" %SAL_FINAL)

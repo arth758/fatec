@@ -1,0 +1,78 @@
+package exercicioFixacao1;
+
+import java.util.ArrayList;
+
+public class JogoDaVelha {
+	private Ocupacao[][] jogo = new Ocupacao[3][3];
+	private String charJOG1 = "X";
+	private String charJOG2 = "O";
+	private ArrayList<String> posicoesJogadas;
+
+	public JogoDaVelha() {
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				this.jogo[i][j] = Ocupacao.VAZIA;
+			}
+		}
+	}
+
+	public void ExibeLista() {
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				System.out.print(this.jogo[i][j]);
+			}
+			System.out.print("\n");
+		}
+	}
+
+	public void Jogada(Ocupacao jogador, String posicao) throws Exception {
+		this.verificaPosicaoJogada(posicao);
+		int[] posi = this.getIntegerPosition(posicao);
+		switch (jogador) {
+		case JOG1:
+			jogo[posi[0]][posi[1]] = Ocupacao.JOG1;
+			break;
+		case JOG2:
+			jogo[posi[0]][posi[1]] = Ocupacao.JOG2;
+			break;
+		case VAZIA:
+			Exceptions.OcupacaoVaziaException();
+			break;
+		}
+	}
+
+	public int[] getIntegerPosition(String posicao) {
+		String[] strPosi = posicao.split(",");
+		int[] intPosi = new int[2];
+		for (int i = 0; i < 2; i++) {
+			intPosi[i] = Integer.parseInt(strPosi[i]);
+		}
+		return intPosi;
+	}
+
+	public void verificaPosicaoJogada(String posicao) throws Exception {
+		if (this.posicoesJogadas.contains(posicao)) {
+			Exceptions.PosicaoOcupada();
+		} else {
+			this.posicoesJogadas.add(posicao);
+		}
+	}
+	
+	public void ExibeTabuleiro() {
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				switch(jogo[i][j]) {
+				case JOG1:
+					System.out.println("[X]");
+					break;
+				case JOG2:
+					System.out.println("[O]");
+					break;
+				case VAZIA:
+					System.out.println("[ ]");
+					break;
+				}
+			}
+		}
+	}
+}

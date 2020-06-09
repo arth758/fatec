@@ -1,0 +1,5 @@
+package exercicioFixacao2;
+
+public class Empresa {
+	private ArrayList<Funcionario> = new ArrayList<Funcionario>();
+}

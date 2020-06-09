@@ -1,0 +1,15 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestData {
+	Data cut;
+
+	@Test
+	public void criarDataValida() {
+		
+	}
+
+}

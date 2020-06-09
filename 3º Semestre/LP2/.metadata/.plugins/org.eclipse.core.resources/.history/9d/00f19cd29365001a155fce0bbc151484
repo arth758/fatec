@@ -1,0 +1,27 @@
+package exerciciosFixacaoJava;
+
+import java.time.LocalDate;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
+public class Data {
+	private int dia;
+	private int mes;
+	private int ano;
+	
+	String[] actualDate = LocalDate.now().toString().split("-");
+	
+	public Data() {
+		setDia(Integer.parseInt(actualDate[2]));
+		setMes(Integer.parseInt(actualDate[1]));
+		setAno(Integer.parseInt(actualDate[0]));
+	}
+	
+	public String getStrDate() {
+		
+		return "";
+	}
+	
+}

@@ -1,0 +1,29 @@
+package exercicioFixacao2;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Funcionario {
+	private String matricula;
+	private String nome;
+	private double salarioBruto;
+	private double salarioLiquido;
+
+	public Funcionario(String matricula, String nome, double salarioBruto) {
+		setMatricula(matricula);
+		setNome(nome);
+		setSalarioBruto(salarioBruto);
+		CalculaSalarioLiquido(salarioBruto);
+	}
+
+	public void CalculaSalarioLiquido(double salarioBruto) {
+		if (salarioBruto <= 1500) {
+			salarioLiquido = (salarioBruto - ((6 / 100) * salarioBruto));
+			System.out.println(salarioLiquido);
+		} else {
+			salarioLiquido = salarioBruto - ((9.5 / 100) * salarioBruto);
+		}
+	}
+}

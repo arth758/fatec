@@ -1,0 +1,17 @@
+package exerciciosFixacaoJava;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Test;
+
+public class EmpregadoTest {
+	@Test
+	void teste(){
+		
+	Empregado funcionario1 = new Empregado("Arthur", "Reis", 1600);
+	Empregado funcionario2 = new Empregado("Marcos", "Alexandre", 1600);
+	
+	assertEquals(funcionario1.getSalario(), 1600);
+	
+	}
+}

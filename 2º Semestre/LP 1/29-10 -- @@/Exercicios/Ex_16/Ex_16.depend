@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572483088 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\29-10 -- @@\exercicios\ex_16\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

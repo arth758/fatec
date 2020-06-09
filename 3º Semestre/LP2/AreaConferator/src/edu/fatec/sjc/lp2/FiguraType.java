@@ -1,0 +1,17 @@
+package edu.fatec.sjc.lp2;
+
+public enum FiguraType {
+	QUADRADO, 
+	RETANGULO, 
+	CIRCULO, 
+	TRIANGULO, 
+	PARALELOGRAMA, 
+	TRAPEZIO, 
+	HEXAGONO, 
+	LOSANGO, 
+	CUBO,
+	CILINDRO,
+	ESFERA,
+	PRISMA_TRIANGULAR,
+	PIRAMIDE_REGULAR
+}

@@ -1,0 +1,14 @@
+input j1 e j2
+vetor com as posicoes dos navios para comparacao
+vetor vertical, horizontal e para submarinos, 3 para j1 e para j2, 6 no total
+total de espaços ocupados = 50
+total de espacços = 225
+verificar os erros antes da execução do algoritmo
+caso ocorram erros parar execução do programa
+verificar posições dos barcos, se elas se sobrepõe
+• Posicionar exatamente 5 peças de código 1 e 2 peças de código 2;
+• Posicionar exatamente 10 peças de código 3;
+• Posicionar exatamente 5 peças de código 4; e
+• Disparar exatamente 25 tiros de torpedo;
+verificar as duas primeiras posicoes dos codigos dos barcos, v-v, v-h, h-v, h-h
+ 

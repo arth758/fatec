@@ -1,0 +1,53 @@
+Jogo need for speed
+
+- Entidades
+- [ ] Carros
+- [ ] Usuario
+- [ ] Pistas
+- [ ] peças
+- [ ] Personalização
+
+Usuario possui carro
+	pk————————pk
+	|				|	
+nome_usuario  |  nome_carro,ano | data_compra |
+
+usuario personaliza carro com peças
+
+Personalização 
+- nome_carro
+- nome_peca
+- nome_usuario
+- Data_personalizaçao
+
+Usuario corre na pista
+		________pk___________	
+		|		 fk			|						|	
+nome_usuario | nome_carro | nome_pista | tempo_corrida | data_hora_corrida
+
+
+Usuario	
+- Nome_usuario
+- email_usuario pk
+- senha_usuario
+
+Carros	
+- Nome_carro
+- Especificaçoes
+- Ano_carro
+- Preço
+- Cor
+- Velocidade máxima
+- Aceleração
+
+Pistas 
+- Local
+- Circuito
+- Tempo
+- Horario 
+
+Peças
+- nome_peça
+- tipo_peça
+- Marca
+- Cor

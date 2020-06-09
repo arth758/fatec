@@ -1,0 +1,13 @@
+barramento:
+	- todos os computadores são ligados por um único barramento de dados
+	- apenas uma máquina pode "falar" por vez na rede
+	- todas as máquinas "escutam" as informações e pegam somente aquilo que é destinado a ela
+	Vantagens:
+		Uso de cabo é econômico;
+		Mídia é barrata, fácil de trabalhar e instalar;
+		Simples e relativamente confiável;
+		Fácil expansão.
+	Desvantagens:
+		Rede pode ficar extremamente lenta em situações de tráfego pesado;
+		Problemas são difíceis de isolar;
+		Falha no cabo paralisa a rede inteira.

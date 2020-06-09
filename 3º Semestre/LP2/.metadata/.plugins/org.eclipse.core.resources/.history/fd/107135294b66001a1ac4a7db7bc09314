@@ -1,0 +1,17 @@
+package exerciciosFixacaoJava;
+
+import org.junit.Test;
+
+public class TesteComplex {
+	@Test
+	public void test() {
+		Complex cut;
+		
+		public void NumeroReal() {
+			
+			
+		}
+		
+	}
+}
+}

@@ -1,0 +1,87 @@
+-----------------------------------------------------------
+Caso de Teste - CT1
+Processado com sucesso
+----------------------------------------------------------- J1 ERROR_OVERWRITE_PIECES_VALIDATION
+-----------------------------------------------------------
+Caso de Teste - CT2
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_NR_PARTS_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+----------------------------------------------------------- J1 ERROR_OVERWRITE_PIECES_VALIDATION
+-----------------------------------------------------------
+Caso de Teste - CT3
+Processado com sucesso
+-----------------------------------------------------------J1 ERROR_OVERWRITE_PIECES_VALIDATION
+-----------------------------------------------------------
+Caso de Teste - CT4
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_NR_PARTS_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------J1 ERROR_OVERWRITE_PIECES_VALIDATION
+-----------------------------------------------------------
+Caso de Teste - CT5
+Resultado: Saidas divergentes
+Esperado: J1 ERROR_OVERWRITE_PIECES_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT6
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_OVERWRITE_PIECES_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT7
+Resultado: Saidas divergentes
+Esperado: J1 ERROR_POSITION_NONEXISTENT_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT8
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_POSITION_NONEXISTENT_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT9
+Resultado: Saidas divergentes
+Esperado: J1 ERROR_POSITION_NONEXISTENT_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT10
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_POSITION_NONEXISTENT_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT11
+Resultado: Saidas divergentes
+Esperado: J1 ERROR_OVERWRITE_PIECES_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT12
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_OVERWRITE_PIECES_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT13
+Resultado: Saidas divergentes
+Esperado: J1 11AA 14AE 59PT
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT14
+Resultado: Saidas divergentes
+Esperado: J2 11AA 14AE 59PT
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT15
+Resultado: Numero de linhas do arquivo gerado incorretas
+Esperado: 2
+Processado: 1
+-----------------------------------------------------------
+

@@ -1,0 +1,9 @@
+package exercicioFixacao1;
+
+public class Exceptions extends Exception {
+	private static final long serialVersionUID = 1L;
+
+	public static void OcupacaoVaziaException() throws Exception {
+		throw new Exception("Preencha Jogador!");
+	}
+}

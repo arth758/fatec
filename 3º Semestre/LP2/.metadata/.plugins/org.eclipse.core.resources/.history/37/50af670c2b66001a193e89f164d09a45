@@ -1,0 +1,78 @@
+package exerciciosFixacaoJava;
+
+import java.time.LocalDate;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Data {
+	private int dia;
+	private int mes;
+	private int ano;
+
+	String[] actualDate = LocalDate.now().toString().split("-");
+
+	public Data(int dia, int mes, int ano) {
+		boolean bissexto = false;
+		// Verifica se o ano é Bissexto
+		if ((ano % 4 == 0) && (ano % 100 != 0)) {
+			bissexto = true;
+		} else if (ano % 400 == 0) {
+			bissexto = true;
+		}
+		
+		
+		switch(mes) {
+		case 1 || 2 :
+			break;
+		}
+		
+//		if (bissexto) {
+//			if (mes == 2) {
+//				if (dia > 0 && dia < 30)
+//					setDia(dia);
+//				else
+//					throw new Error("Dia deve ser uma valor válido!");
+//			} else {
+//				if (dia > 0 && dia < 31)
+//					setDia(dia);
+//				else
+//					throw new Error("Dia deve ser uma valor válido!");
+//			}
+//		} else {
+//			if (mes == 2) {
+//				if (dia > 0 && dia < 29)
+//					setDia(dia);
+//				else
+//					throw new Error("Dia deve ser uma valor válido!");
+//			} else if(mes > 0 && mes < 13) {
+//				if (dia > 0 && dia < 31)
+//					setDia(dia);
+//				else
+//					throw new Error("Dia deve ser uma valor válido!");
+//			} else 
+//				throw new Error("Mês deve ser um valor válido");
+//		}
+	}
+
+	public Data() {
+		setDia(Integer.parseInt(actualDate[2]));
+		setMes(Integer.parseInt(actualDate[1]));
+		setAno(Integer.parseInt(actualDate[0]));
+	}
+
+	public String getStrDate(int dia, int mes, int ano) {
+		String strDia = Integer.toString(dia);
+		String strMes = Integer.toString(mes);
+		String strAno = Integer.toString(ano);
+		return strDia + "/" + strMes + "/" + strAno;
+	}
+	
+	
+
+//	public String avancaData(String dia, String mes, String ano) {
+//		
+//	}
+}

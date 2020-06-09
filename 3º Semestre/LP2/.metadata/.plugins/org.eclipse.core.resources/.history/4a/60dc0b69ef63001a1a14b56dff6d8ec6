@@ -1,0 +1,7 @@
+package exerciciosFixacaoJava;
+
+public class TestEmpregado {
+	public void validarSalario() {
+		
+	}
+}

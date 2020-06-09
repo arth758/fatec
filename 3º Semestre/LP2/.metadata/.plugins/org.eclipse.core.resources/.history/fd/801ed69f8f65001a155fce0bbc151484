@@ -1,0 +1,17 @@
+package exerciciosFixacaoJava;
+
+import java.time.LocalDate;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String today = LocalDate.now().toString();
+		String[] date = today.split("-");
+		System.out.println(today);
+		System.out.println(date[0]);
+		System.out.println(date[1]);
+		System.out.println(date[2]);
+	}
+
+}

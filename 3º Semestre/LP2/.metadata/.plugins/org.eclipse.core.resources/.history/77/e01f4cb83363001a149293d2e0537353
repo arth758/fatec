@@ -1,0 +1,9 @@
+package exerciciosFixacaoJava;
+
+public class Empregado {
+	private String Nome;
+	private String Sobrenome;
+	private double Salario;
+	
+	
+}

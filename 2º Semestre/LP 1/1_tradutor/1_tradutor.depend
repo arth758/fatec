@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1552841166 source:c:\users\hércules\desktop\#fatec\2 semestre\2_linguagem de programação i (bd)\lista de exercicio ponteiro_matriz\1_tradutor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
+1552841166 source:c:\users\aluno\desktop\lista de exercicio ponteiro_matriz\1_tradutor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
+1552841166 source:c:\users\sijac\documents\fatec\lp1\1_tradutor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
+1554233216 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\1_tradutor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+

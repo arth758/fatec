@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1569456944 source:c:\users\aluno\desktop\exer11\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1569456946 source:d:\lab2_lista_matrizes_murani\exer11\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,11 @@
+package exerciciosFixacaoJava;
+
+import org.junit.Test;
+
+public class TesteComplex {
+	Complex cut;
+	
+	@Test
+	public void test() {
+	}
+}

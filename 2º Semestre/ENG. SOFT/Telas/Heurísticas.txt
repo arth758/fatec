@@ -1,0 +1,7 @@
+1 - título em cada página
+3 - botão de sair em todas as páginas
+4 - páginas de login, cadastro de usuário e de projetos com design igual
+5 - exibir informações necessarias para login 
+6 - exibição dos status dos projetos
+8 - frases curtas e objetivas/ícones para login, cadastro e sair
+9 - mensagem de erro simples e objetiva em caso de login falho/recuperar senha

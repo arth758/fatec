@@ -1,0 +1,77 @@
+"C:\Users\Arthur Braga Reis\AppData\Local\Programs\Python\Python37-32\python.exe" "C:/Users/Arthur Braga Reis/Desktop/FATEC/Lab. Banco de Dados/PROJETO FINAL/ep1check_windows/runtests.py"
+-----------------------------------------------------------
+Caso de Teste - CT1
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT10
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT11
+Resultado: Saidas divergentes
+Esperado: J1 ERROR_OVERWRITE_PIECES_VALIDATION
+Processado: J1 ERROR_POSITION_NONEXISTENT_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT12
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_OVERWRITE_PIECES_VALIDATION
+Processado: J2 ERROR_POSITION_NONEXISTENT_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT13
+Resultado: Saidas divergentes
+Esperado: J1 7AA 15AE 42PT
+Processado: J1 7AA 15AE 44PT
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT14
+Resultado: Saidas divergentes
+Esperado: J2 7AA 15AE 42PT
+Processado: J2 7AA 15AE 44PT
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT15
+Resultado: Saidas divergentes
+Esperado: J1 7AA 15AE 42PT
+Processado: J1 7AA 15AE 44PT
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT2
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT3
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT4
+Resultado: Saidas divergentes
+Esperado: J2 ERROR_NR_PARTS_VALIDATION
+Processado: J1 ERROR_NR_PARTS_VALIDATION
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT5
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT6
+Resultado: Numero de linhas do arquivo gerado incorretas
+Esperado: 1
+Processado: 2
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT7
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT8
+Processado com sucesso
+-----------------------------------------------------------
+-----------------------------------------------------------
+Caso de Teste - CT9
+Processado com sucesso
+-----------------------------------------------------------
+
+Process finished with exit code 0

@@ -1,0 +1,59 @@
+Requisitos
+
+Projeto = Projeto do Curso Engenharia de Software, 2 ou 3 componentes
+
+Funcionais
+ - **Exemplo** O empresário[ator] pode logar[req] usando email e senha[o que precisa]
+
+ - O EMPRESÁRIO se CADASTRA no sistema usando um EMAIL, CPF E SENHA
+
+ - O PROFESSOR se CADASTRA no sistema usando um EMAIL INTITUCIONAL, CPF E SENHA
+
+ - O CAD se CADASTRA no sistema usando um EMAIL INTITUCIONAL, CPF E SENHA
+
+ - O ALUNO  se CADASTRA no sistema usanado um EMAIL INTITUCIONAL, CPF E SENHA
+
+ - O EMPRESÁRIO faz LOGIN no sistema usando seu EMAIL E SENHA
+
+ - O ALUNO/PROFESSOR faz LOGIN no sistema usando seu EMAIL INSTITUCIONAL E SENHA
+
+ - Para o EMPRESÁRIO CADASTRA um projeto, ele precisa de um TÍTULO e uma BREVE DESCRIÇÃO, se quiser, um LINK
+
+ - O CAD AVALIA o PROJETO CADASTRADO pelo empresário
+ 
+ - O EMPRESÁRIO RECEBE A NOTIFICAÇÃO sobre a APROVAÇÃO DO PROJETO
+
+ - O EMPRESÁRIO ATUALIZA o projeto com uma DESCRIÇÃO PROFUNDA, uma DESCRIÇÃO SOBRE AS TECNOLOGIAS para serem usada no projeto e, se quiser, um campo para LINKS
+
+ - O CAD LÊ as NOVAS INFORMAÇÕES do projeto
+
+ - O CAD DECIDE  se o PROJETO continua ou não
+
+ - O CAD SELECIONA um ou mais PROFESSORES para levar o projeto
+
+ - O CAD MARCA uma reunião com o EMPRESÁRIO E PROFESSORES, informando DIA, HORA e LOCAL
+
+ - O CAD MARCA a reunião como CONCLUÍDA, então o projeto começa
+
+ - O(S) PROFESSOR(ES) FORNECEM o NOME e SENHA do projeto para os alunos
+
+ - O(S) ALUNO(S) se INSCREVEM no projeto com A SENHA
+
+ - O(S) ALUNO(S) ENTREGAM o PROJETO FINAL, fornecendo UM LINK DO GIT e um TEXTO e, se quiser, um LINK DO PROJETO RODANDO
+
+ - O PROFESSOR pode VISUALIZAR os ALUNOS INSCRITOS no projeto
+
+ - O PROJETO FICA com status OK para o EMPRESÁRIO, caso seja aceito
+
+ - O PROJETO TEM uma DATA LIMITE PARA ENTREGA
+
+ - O PROFESSOR pode EXCLUIR O ALUNO que não entregar o projeto
+
+ - O PROJETO só pode RECEBER novos posts ATÉ A DATA LIMITE
+
+
+
+
+
+
+Não Funcional - Usabilidade - Projetar as telas usando as 10 Heurísticas

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1574379615 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\ultimalista\ex_25\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+

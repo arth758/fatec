@@ -1,0 +1,15 @@
+package exerciciosFixacaoJava;
+
+import org.junit.Assert.*;
+import org.junit.Test;
+
+public class EmpregadoTest {
+	@Test
+	void teste() {
+		Empregado funcionario1 = new Empregado("Arthur", "Reis", 1600);
+		Empregado funcionario2 = new Empregado("Marcos", "Alexandre", 1600);
+
+		assertEquals(1600 * 12, funcionario1.getSalarioAnual(), 0.01);
+		assertEquals(1600 * 12, funcionario2.getSalarioAnual(), 0.01);
+	}
+}

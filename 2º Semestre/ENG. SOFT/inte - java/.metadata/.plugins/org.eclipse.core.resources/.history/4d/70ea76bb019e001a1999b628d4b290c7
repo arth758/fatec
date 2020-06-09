@@ -1,0 +1,11 @@
+package exercicioFixacao2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Empresa empresa = new Empresa();
+		
+		empresa.AdicionarFuncionario(new Funcionario("0001", "Arthur Reis", 1500.00));
+	}
+
+}

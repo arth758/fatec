@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1568931114 source:c:\users\arthur braga reis\desktop\fatec\2º semestre\lp 1\atividade 17-23\ex_19\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+

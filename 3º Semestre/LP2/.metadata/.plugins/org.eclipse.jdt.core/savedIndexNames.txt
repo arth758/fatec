@@ -1,0 +1,26 @@
+INDEX VERSION 1.131+C:\Users\Arthur Braga Reis\Desktop\FATEC\3º Semestre\LP2\.metadata\.plugins\org.eclipse.jdt.core
+1204385438.index
+2862708712.index
+1136841437.index
+4120324546.index
+4069293921.index
+2755271588.index
+2772419465.index
+3692609524.index
+2975910402.index
+1459523266.index
+3572716771.index
+646436966.index
+3973945260.index
+2845807539.index
+2918551323.index
+364096953.index
+753608048.index
+3429681154.index
+2060039664.index
+3390892061.index
+1151569180.index
+4238028124.index
+3384131066.index
+379664343.index
+165794779.index
